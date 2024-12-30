@@ -11,5 +11,6 @@ class RegEx1{
         System.out.println("User name of the gmail: "+userName);
         String domainName = str.substring(13,22);
         System.out.println("Domain name of the gmail: "+domainName);
+        System.out.println("Jagan");
     }
 }

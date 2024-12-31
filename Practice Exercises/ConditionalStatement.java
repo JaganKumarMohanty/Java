@@ -3,7 +3,7 @@ class ConditionalStatement{
         //Number is positive or not
 
         int x =  -5;
-        if(x>0){
+        if(x=>0){
             System.out.println("Positive Number");
         }
         else{

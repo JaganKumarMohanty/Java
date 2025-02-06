@@ -10,6 +10,7 @@ class MenuDrivenProgram{
         System.out.println("Please choose an opertion you want to perform: \nADD\nSUB\nMUL\nDIV\nMOD");
         System.out.println("Please choose an operation from above you want to perform:");
         String ch = sc.nextLine();
+        ch=ch.toUpperCase();
         switch(ch){
             case "ADD":
                 int sum= a+b;

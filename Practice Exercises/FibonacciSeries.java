@@ -9,6 +9,7 @@ class FibonacciSeries{
         System.out.println("Enter the size of Fabonacci Series:");
         int n = sc.nextInt();
         int c;
+        //To print Fabonic series
         System.out.println("Fibonacci Series is :");
         System.out.print(a+"\t"+b+"\t");
         for(int i=1;i<n-1;i++){
